@@ -23,22 +23,6 @@
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.menu__btn:not(:nth-child(5)) {
-  margin-right: 9px;
-}
-
-.menu__btn :hover,
-.menu__btn :focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
 .modal-btn_color_whithe {
   width: 128px;
   height: 38px;
