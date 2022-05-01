@@ -25,13 +25,16 @@
 
 .social-list {
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
+  justify-content: center;
 }
 
 .social-list-company {
   align-items: center;
 }
-
+.social-list-footer:not(:last-child) {
+  margin-right: 10px;
+}
 .social-list-company {
   min-width: 206px;
 }
