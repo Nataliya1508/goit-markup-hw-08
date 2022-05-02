@@ -41,7 +41,7 @@
     color: var(--secondary-text-color-theme-light);
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .benefits-list {
     display: flex;
     flex-wrap: wrap;
@@ -94,46 +94,49 @@
     color: var(--secondary-text-color-theme-light);
   }
 }
-// .benefits-list__box {
-//   height: 120px;
-//   background-color: #f5f4fa;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   margin-bottom: 30px;
-// }
-// .benefits-list__item:not(:last-child) {
-//   margin-right: 30px;
-// }
 
-// .benefits-list__title {
-//   margin-bottom: 10px;
-//   font-weight: 700;
-//   font-size: 14px;
-//   line-height: 1.14;
-//   letter-spacing: 0.03em;
-//   text-transform: uppercase;
+@media screen and (min-width: 1200px) {
+  .benefits-list__box {
+    height: 120px;
+    background-color: #f5f4fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .benefits-list__item:not(:last-child) {
+    margin-right: 30px;
+  }
 
-//   color: var(--primari-text-color-theme-ligth);
-// }
-// .benefits-list__icon {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// }
+  .benefits-list__title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
-// .benefits-list__text {
-//   flex-basis: calc((100%-120px) / 4);
-//   font-weight: 400;
-//   font-size: 14px;
-//   line-height: 1.71;
-//   /* or 171% */
+    color: var(--primari-text-color-theme-ligth);
+  }
+  .benefits-list__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-//   letter-spacing: 0.03em;
+  .benefits-list__text {
+    flex-basis: calc((100%-120px) / 4);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
 
-//   color: var(--secondary-text-color-theme-light);
-// }
+    letter-spacing: 0.03em;
 
-// .benefits-list {
-//   display: flex;
-// }
+    color: var(--secondary-text-color-theme-light);
+  }
+
+  .benefits-list {
+    display: flex;
+  }
+}

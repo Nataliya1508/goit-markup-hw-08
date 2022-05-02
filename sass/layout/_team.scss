@@ -61,7 +61,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .team {
     display: flex;
     flex-wrap: wrap;
@@ -130,56 +130,59 @@
     margin-right: 10px;
   }
 }
-// .picture-img {
-//   @media screen and (max-width: 767px) {
-//     width: 100%;
-//     height: auto;
-//   }
-// }
-// .team {
-//   display: flex;
-//   justify-content: space-between;
-// }
 
-// .team__item {
-//   flex-basis: calc((100% - 90px) / 4);
-//   background-color: #ffffff;
-//   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-//     0px 2px 1px rgba(0, 0, 0, 0.2);
-//   border-radius: 4px;
+@media screen and (min-width: 1200px) {
+  // .picture-img {
+  //   @media screen and (max-width: 767px) {
+  //     width: 100%;
+  //     height: auto;
+  //   }
+  // }
+  .team {
+    display: flex;
+    justify-content: space-between;
+  }
 
-//   &:not(:nth-child(4)) {
-//     margin-right: 30px;
-//   }
-// }
-// .team__name {
-//   font-weight: 500;
-//   font-size: 16px;
-//   line-height: 1.18;
+  .team__item {
+    flex-basis: calc((100% - 90px) / 4);
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
 
-//   text-align: center;
-//   letter-spacing: 0.03em;
-//   margin-bottom: 10px;
+    &:not(:nth-child(4)) {
+      margin-right: 30px;
+    }
+  }
+  .team__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
 
-//   color: var(--primari-text-color-theme-ligth);
-// }
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
 
-// .team__position {
-//   font-weight: 500;
-//   font-size: 16px;
-//   line-height: 1.18;
+    color: var(--primari-text-color-theme-ligth);
+  }
 
-//   text-align: center;
-//   letter-spacing: 0.03em;
+  .team__position {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
 
-//   color: var(--secondary-text-color-theme-light);
-//   margin-bottom: 16px;
-// }
+    text-align: center;
+    letter-spacing: 0.03em;
 
-// .section-team {
-//   background: #f5f4fa;
-// }
+    color: var(--secondary-text-color-theme-light);
+    margin-bottom: 16px;
+  }
 
-// .team__wrapper {
-//   padding: 30px 32px;
-// }
+  .section-team {
+    background: #f5f4fa;
+  }
+
+  .team__wrapper {
+    padding: 30px 32px;
+  }
+}
