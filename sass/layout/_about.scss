@@ -4,6 +4,11 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .none-mobile {
+    display: none;
+  }
+}
 // .foto {
 //   display: flex;
 // }

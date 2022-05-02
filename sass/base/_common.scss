@@ -35,3 +35,13 @@ a {
     padding: 60px 0;
   }
 }
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding: 94px 0;
+  }
+}
