@@ -65,8 +65,9 @@
   }
   .contact-form-footer {
     display: block;
+    width: 100%;
     /* position: absolute; */
-    width: 358px;
+    // width: 358px;
     height: 50px;
     left: 815px;
     top: 1736px;
@@ -88,13 +89,17 @@
   }
 
   .subscribe {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: center;
+    // align-items: center;
   }
   .subscribe-div {
-    margin-left: auto;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // text-align: center;
+    // margin-left: auto;
     /* top: 12px; */
     /* right: 0; */
   }
@@ -105,6 +110,7 @@
 
   .contact-form-field-footer {
     display: block;
+    width: 100%;
     margin-bottom: 20px;
   }
 

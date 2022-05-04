@@ -202,10 +202,6 @@ a {
   margin-right: 10px;
 }
 
-.social-list-company {
-  min-width: 206px;
-}
-
 .social-list-icon-footer {
   fill: white;
 }
@@ -318,9 +314,6 @@ a {
     border-bottom: 1px solid #ececec;
     padding-top: 24px;
     padding-bottom: 24px;
-  }
-  .header__container {
-    border: none;
   }
   .navigation {
     align-items: center;
@@ -548,9 +541,6 @@ a {
   .mobile-menu {
     display: none;
   }
-  .header__container {
-    border: none;
-  }
   .navigation-list {
     margin-left: 93px;
   }
@@ -571,7 +561,6 @@ a {
     justify-content: space-between;
   }
   .header {
-    border-bottom: 1px solid #ececec;
     padding-top: 24px;
     padding-bottom: 24px;
   }
@@ -632,7 +621,6 @@ a {
 }
 
 .container {
-  padding-top: 16px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -679,7 +667,13 @@ a {
 
 @media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url("..//images2/hero/mobile-hero-img@2x.jpg");
+    max-width: 100%;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("..//images2/hero/mobile-hero-img@2x.jpg");
+    background-size: cover;
+    background-color: #e5e5e5;
   }
 }
 
@@ -741,7 +735,13 @@ a {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url("..//images2/hero/tablet-hero-img@2x.jpg");
+    max-width: 100%;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("..//images2/hero/tablet-hero-img@2x.jpg");
+    background-size: cover;
+    background-color: #e5e5e5;
   }
 }
 
@@ -777,7 +777,6 @@ a {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    /* or 136% */
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -810,7 +809,13 @@ a {
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url("..//images2/hero/img-desktop-hero@2x.jpg");
+    max-width: 1600px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("..//images2/hero/img-desktop-hero@2x.jpg");
+    background-size: cover;
+    background-color: #e5e5e5;
   }
 }
 
@@ -1309,8 +1314,8 @@ a {
   }
   .contact-form-footer {
     display: block;
+    width: 100%;
     /* position: absolute; */
-    width: 358px;
     height: 50px;
     left: 815px;
     top: 1736px;
@@ -1327,19 +1332,13 @@ a {
     border-color: var(--accent-color);
     outline: none;
   }
-  .subscribe {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
   .subscribe-div {
-    margin-left: auto;
     /* top: 12px; */
     /* right: 0; */
   }
   .contact-form-field-footer {
     display: block;
+    width: 100%;
     margin-bottom: 20px;
   }
   .footer-form-submit-btn {
@@ -1600,7 +1599,7 @@ a {
   .menu {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
   .menu__btn:not(:nth-child(5)) {
     margin-right: 8px;
@@ -1623,9 +1622,9 @@ a {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    /* identical to box height, or 200% */
     letter-spacing: 0.06em;
     color: #212121;
+    margin-bottom: 4px;
   }
   .projects-list__text {
     font-weight: normal;
@@ -1636,6 +1635,8 @@ a {
   }
   .projects-list__box {
     padding: 20px 24px;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
   }
   .projects-list__wrapper {
     position: relative;
@@ -1700,7 +1701,6 @@ a {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    /* identical to box height, or 200% */
     letter-spacing: 0.06em;
     color: #212121;
   }
