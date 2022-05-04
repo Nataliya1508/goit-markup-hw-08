@@ -484,15 +484,22 @@ a {
     fill: var(--accent-color);
   }
   .mobile-menu__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
     padding-top: 48px;
     padding-bottom: 48px;
     padding-left: 40px;
     padding-right: auto;
   }
   .contact-div {
-    margin-top: 132px;
-    margin-bottom: 64px;
+    margin-top: auto;
   }
+}
+
+.social-media {
+  margin-top: 64px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
