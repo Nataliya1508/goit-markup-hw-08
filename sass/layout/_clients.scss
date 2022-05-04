@@ -3,15 +3,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: -15px;
   }
   .clients__item {
     // flex-basis: calc((100% - 60px) / 2);
     justify-content: center;
+    margin: 15px;
     // margin-bottom: 30px;
 
-    &:nth-child(-n + 4) {
-      margin-bottom: 30px;
-    }
+    // &:nth-child(-n + 4) {
+    //   margin-bottom: 30px;
+    // }
   }
 
   .clients__link {

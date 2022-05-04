@@ -140,7 +140,7 @@
   .footer-section {
     position: relative;
     // width: 100%;
-    padding: 60px 76px;
+    padding: 60px 0px;
     background: #2f303a;
   }
 
@@ -150,6 +150,7 @@
     // flex-direction: column;
     text-align: center;
     align-items: baseline;
+    justify-content: space-around;
   }
   .adress {
     margin-top: 20px;
@@ -189,7 +190,7 @@
   .footer-box {
     // display: flex;
     // text-align: center;
-    margin-right: 165px;
+    // margin-right: 165px;
   }
 
   .footer-title {
@@ -200,7 +201,7 @@
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    margin-top: 60px;
+    // margin-top: 60px;
     margin-bottom: 20px;
 
     color: #ffffff;
@@ -211,7 +212,7 @@
   .contact-form-footer {
     display: block;
     /* position: absolute; */
-    width: 358px;
+    width: 450px;
     height: 50px;
     left: 815px;
     top: 1736px;
@@ -241,7 +242,8 @@
     // align-items: center;
   }
   .subscribe-div {
-    margin-left: 166px;
+    margin-top: 60px;
+    // margin-left: 166px;
     /* top: 12px; */
     /* right: 0; */
   }

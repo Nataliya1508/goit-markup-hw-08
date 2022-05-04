@@ -1,4 +1,13 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 450px) {
+  .modal {
+    position: relative;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 767px) {
   .modal {
     position: absolute;
     top: 50%;

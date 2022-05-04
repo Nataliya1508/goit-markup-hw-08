@@ -5,16 +5,16 @@
 }
 .header {
   position: relative;
+  border-bottom: 1px solid #ececec;
 }
 
 .container {
-  padding-top: 16px;
   padding-left: 15px;
   padding-right: 15px;
 }
-.header__container {
-  border-bottom: 1px solid #ececec;
-}
+// .header__container {
+//   border-bottom: 1px solid #ececec;
+// }
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -274,7 +274,7 @@
   }
 
   .mobile-menu__container {
-    position: relative;
+    // position: relative;
     padding-top: 48px;
     padding-bottom: 48px;
     padding-left: 40px;
